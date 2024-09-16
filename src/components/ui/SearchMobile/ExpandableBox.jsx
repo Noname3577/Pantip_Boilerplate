@@ -46,7 +46,7 @@ const ExpandableBox = () => {
           }`}
         >
           <div className="mt-2">
-            <div className="relative w-[30rem]">
+            <div className="relative w-[45rem]">
               <Swiper
                 modules={[Virtual]}
                 spaceBetween={50}
@@ -92,7 +92,7 @@ const ExpandableBox = () => {
           }`}
         >
           <div className="mt-2">
-            <div className="relative w-[30rem]">
+            <div className="relative w-[45rem]">
               <Swiper
                 modules={[Virtual]}
                 spaceBetween={40}
@@ -141,7 +141,7 @@ const ExpandableBox = () => {
           }`}
         >
           <div className="mt-2">
-            <div className="relative w-[30rem]">
+            <div className="relative w-[45rem]">
               <Swiper
                 modules={[Virtual]}
                 spaceBetween={40}
