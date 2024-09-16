@@ -72,7 +72,7 @@ export default function Realtime({ DataTest }) {
                   {' '}
                   {experience.author.name}
                 </p>
-                <div className="mt-[10px] flex flex-nowrap text-[1vw]">
+                <div className="mt-[10px] flex flex-nowrap text-base">
                   <span className="rounded-[8px] bg-[#ebebeb] p-[5px]">
                     <span>👀</span>
                     เข้าชม :
@@ -139,7 +139,7 @@ export default function Realtime({ DataTest }) {
                 <h1>{selectedExperience.author.name}</h1>
               </div>
             </div>
-            <div className="mt-3 flex flex-nowrap">
+            <div className="mt-3 flex flex-nowrap text-base">
               <span className=" ml-[10px] mt-1 rounded-[8px] bg-[#ebebeb] p-[5px]">
                 <span>👀</span>
                 เข้าชม :
