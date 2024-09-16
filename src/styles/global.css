@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'IBMRegular';
+  src: url('../fonts/IBMLooped-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBMMedium';
+  src: url('../fonts/IBMLooped-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'IBMMedium' !important;
+}
+
+:root {
+  --color-text_ch: #686589;
+  --color-foller: #745ac7;
+  --color-icon_h: #ffffff;
+  --color-icon_no_h: #a19db6;
+  --color-add_a: #745ac8;
+  --color-text_body: #d5ced9;
+  --color-text_header_w: #f0bc4d;
+  --color-text_header: #f5c03f;
+  --color-bg: #3c3a62;
+  --color-body_text: #353156;
+  --color-header: #1f1d33;
+  --color-highlight: #ff9604;
+  --color-bg_icon: #ff385c;
+  --color-text_a: #222222;
+}
+
+.tap_a::-webkit-scrollbar,
+.tap_a::-webkit-scrollbar-thumb {
+  width: 8px;
+}
+
+.tap_a::-webkit-scrollbar-thumb {
+  background-color: #ff385c;
+}
+
+.opopop {
+  border: 2px solid rgb(225, 224, 224);
+  box-shadow: 20px 0px 20px 20px rgb(255, 255, 255);
+}
+
+.opopop_a {
+  border: 2px solid rgb(225, 224, 224);
+  box-shadow: -10px 0px 20px 20px rgb(255, 255, 255);
+}
